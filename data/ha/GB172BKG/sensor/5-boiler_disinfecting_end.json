@@ -1,0 +1,13 @@
+{
+    "~": "ems-heizung",
+    "uniq_id": "gb172bkg-boiler.disinfecting.end",
+    "name": "GMI Boiler desinfizieren Ende",
+    "stat_t": "~/gas_data",
+    "val_tpl": "{{value_json.boiler_disinfecting_end}}",
+    "ic": "mdi:information-outline",
+    "dev": {
+        "ids": [
+            "ESP-Gasmeter"
+        ]
+    }
+}

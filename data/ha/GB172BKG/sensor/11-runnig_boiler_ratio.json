@@ -1,0 +1,16 @@
+{
+    "~": "ems-heizung",
+    "uniq_id": "gb172bkg-runnig.boiler.ratio",
+    "name": "GMI Boiler Anteil",
+    "stat_t": "~/gas_data",
+    "val_tpl": "{{value_json.runnig_boiler_ratio}}",
+    "ic": "mdi:relative-scale",
+    "dev": {
+        "ids": [
+            "ESP-Gasmeter"
+        ]
+    },
+    "unit_of_meas": "%",
+    "state_class": "measurement",
+    "device_class": "power_factor"
+}

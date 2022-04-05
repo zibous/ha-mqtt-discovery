@@ -1,0 +1,16 @@
+{
+    "~": "ems-heizung",
+    "uniq_id": "gb172bkg-gasverbrauch.boiler",
+    "name": "GMI Gasverbrauch Boiler aktuell",
+    "stat_t": "~/gas_data",
+    "val_tpl": "{{value_json.gasverbrauch_boiler}}",
+    "ic": "mdi:counter",
+    "dev": {
+        "ids": [
+            "ESP-Gasmeter"
+        ]
+    },
+    "unit_of_meas": "m³",
+    "state_class": "measurement",
+    "device_class": "gas"
+}

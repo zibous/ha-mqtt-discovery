@@ -1,0 +1,15 @@
+{
+    "~": "ems-heizung",
+    "uniq_id": "gb172bkg-boiler.disinfecting.sec",
+    "name": "GMI Boiler desinfizieren Zeit",
+    "stat_t": "~/gas_data",
+    "val_tpl": "{{value_json.boiler_disinfecting_sec}}",
+    "ic": "mdi:counter",
+    "dev": {
+        "ids": [
+            "ESP-Gasmeter"
+        ]
+    },
+    "unit_of_meas": "s",
+    "state_class": "measurement"
+}

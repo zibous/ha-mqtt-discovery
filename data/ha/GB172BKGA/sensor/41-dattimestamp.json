@@ -1,0 +1,13 @@
+{
+    "~": "ems-heizung",
+    "uniq_id": "gb172bkg-dattimestamp",
+    "name": "GMI Gasverbrauch aktualisiert",
+    "stat_t": "~/gas_data",
+    "val_tpl": "{{value_json.dattimestamp}}",
+    "ic": "mdi:timer-outline",
+    "dev": {
+        "ids": [
+            "ESP-Gasmeter"
+        ]
+    }
+}

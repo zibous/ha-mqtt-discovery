@@ -1,0 +1,15 @@
+{
+    "~": "ems-heizung",
+    "uniq_id": "gb172bkg-runnig.boiler.sec",
+    "name": "GMI Betriebsdauer Boiler",
+    "stat_t": "~/gas_data",
+    "val_tpl": "{{value_json.runnig_boiler_sec}}",
+    "ic": "mdi:timer-settings-outline",
+    "dev": {
+        "ids": [
+            "ESP-Gasmeter"
+        ]
+    },
+    "unit_of_meas": "s",
+    "state_class": "measurement"
+}

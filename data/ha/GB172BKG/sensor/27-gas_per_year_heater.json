@@ -1,0 +1,16 @@
+{
+    "~": "ems-heizung",
+    "uniq_id": "gb172bkg-gas.per.year.heater",
+    "name": "GMI Gas Heizkreis pro Jahr",
+    "stat_t": "~/gas_data",
+    "val_tpl": "{{value_json.gas_per_year.heater}}",
+    "ic": "mdi:counter",
+    "dev": {
+        "ids": [
+            "ESP-Gasmeter"
+        ]
+    },
+    "unit_of_meas": "m³",
+    "state_class": "measurement",
+    "device_class": "gas"
+}

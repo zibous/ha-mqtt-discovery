@@ -1,0 +1,15 @@
+{
+    "~": "ems-heizung",
+    "uniq_id": "gb172bkg-runnig.total.sec",
+    "name": "GMI Betriebsdauer",
+    "stat_t": "~/gas_data",
+    "val_tpl": "{{value_json.runnig_total_sec}}",
+    "ic": "mdi:counter",
+    "dev": {
+        "ids": [
+            "ESP-Gasmeter"
+        ]
+    },
+    "unit_of_meas": "s",
+    "state_class": "measurement"
+}

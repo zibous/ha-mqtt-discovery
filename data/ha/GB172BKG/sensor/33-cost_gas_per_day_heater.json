@@ -1,0 +1,16 @@
+{
+    "~": "ems-heizung",
+    "uniq_id": "gb172bkg-cost.gas.per.day.heater",
+    "name": "GMI Kosten Heizung pro Tag",
+    "stat_t": "~/gas_data",
+    "val_tpl": "{{value_json.cost_gas_per_day.heater}}",
+    "ic": "mdi:counter",
+    "dev": {
+        "ids": [
+            "ESP-Gasmeter"
+        ]
+    },
+    "unit_of_meas": "€",
+    "state_class": "measurement",
+    "device_class": "monetary"
+}

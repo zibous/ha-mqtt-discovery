@@ -1,0 +1,100 @@
+# --------------------------------------------
+# Base settings for all sensors
+# --------------------------------------------
+settings:
+  discovery_prefix: homeassistant
+  name_prefix: "GMI"
+  deviceid: "gb172bkg"
+  section: "gas-data"
+  mode: "developer"
+  datadir: data/
+  mqtt:
+    hostname: "nuc2020.siebler.home"
+    port: 4883
+    auth:
+      username: "mqttMaster"
+      password: "6CT9w8GEpVBVvDsc8U"
+
+# --------------------------------------------
+# payload for 1st binary sensors
+# --------------------------------------------
+binary_sensor_device:
+    '~': ems-heizung
+    uniq_id:
+    name:
+    stat_t: ~/gas_data
+    val_tpl:
+    payload_on: 'on'
+    payload_off: 'off'
+    state_class: measurement
+    unit_of_meas: ''
+    ic: ''
+    dev:
+      sa: Heizung
+      ids:
+        - ESP-Gasmeter
+      name: ESP Gasmeter
+      mf: Elster
+      mdl: Gasbalgenzähler Elster BK-G4 MT
+      sw: 1.0.4
+      via_device: esp-gasmeter
+
+
+binary_sensor:
+  # --------------------------------------------
+  # payload for all other binary sensors
+  # --------------------------------------------
+    '~': ems-heizung
+    uniq_id:
+    name:
+    stat_t: ~/gas_data
+    val_tpl:
+    payload_on: 'on'
+    payload_off: 'off'
+    state_class: measurement
+    unit_of_meas: ''
+    ic: ''
+    dev:
+      ids:
+        - ESP-Gasmeter
+
+
+sensor_device:
+  # ------------------------------------------
+  # payload for the 1st sensor with device
+  # -------------------------------------------
+    '~': ems-heizung
+    uniq_id: gb172bkg-boiler-disinfecting-start
+    name:
+    stat_t: ~/gas_data
+    val_tpl:
+    ic: ''
+    state_class: ''
+    unit_of_meas: ''
+    dev:
+      sa: Heizung
+      ids:
+        - ESP-Gasmeter
+      name: ESP Gasmeter
+      mf: Elster
+      mdl: Gasbalgenzähler Elster BK-G4 MT
+      sw: 1.0.4
+      via_device: esp-gasmeter
+
+
+sensor:
+  # --------------------------------------------
+  # payload for all other sensors
+  # --------------------------------------------
+    '~': ems-heizung
+    uniq_id: gb172bkg-boiler-disinfecting-end
+    name:
+    stat_t: ~/gas_data
+    val_tpl:
+    state_class: ''
+    ic: ''
+    unit_of_meas: ''
+    dev:
+      ids:
+        - ESP-Gasmeter
+
