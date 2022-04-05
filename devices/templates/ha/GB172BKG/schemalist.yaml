@@ -55,6 +55,7 @@ binary_sensor:
     unit_of_meas: ''
     ic: ''
     dev:
+      sa: Heizung
       ids:
         - ESP-Gasmeter
 
@@ -64,7 +65,7 @@ sensor_device:
   # payload for the 1st sensor with device
   # -------------------------------------------
     '~': ems-heizung
-    uniq_id: gb172bkg-boiler-disinfecting-start
+    uniq_id: ''
     name:
     stat_t: ~/gas_data
     val_tpl:
@@ -87,7 +88,7 @@ sensor:
   # payload for all other sensors
   # --------------------------------------------
     '~': ems-heizung
-    uniq_id: gb172bkg-boiler-disinfecting-end
+    uniq_id: ''
     name:
     stat_t: ~/gas_data
     val_tpl:
@@ -95,6 +96,7 @@ sensor:
     ic: ''
     unit_of_meas: ''
     dev:
+      sa: Heizung
       ids:
         - ESP-Gasmeter
 
