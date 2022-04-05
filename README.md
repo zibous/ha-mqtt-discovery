@@ -4,7 +4,7 @@ A library that provides tools to simplify MQTT discovery implementation for Home
 ![ha-mqtt-discovery](doc/mqtt_explorer_data.png)
 
 ## Generate MQTT entities in Home Assistant
-1. Create `devices/ha/DEVICENAME/discovery.yaml``
+1. Create `devices/ha/DEVICENAME/discovery.yaml`
 2. Optional add additional discovery items schema to `devices/ha/DEVICENAME/schemalist.yaml`
 3. Add device and sourcfolder to `config.py`
 4. Run `python3 app.py`
