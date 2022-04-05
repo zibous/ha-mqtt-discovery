@@ -9,10 +9,10 @@ settings:
   mode: "developer"
   datadir: data/
   mqtt:
-    hostname: "nuc2020.siebler.home"
+    hostname: "localhost"
     port: 4883
     auth:
-      username: "mqttMaster"
+      username: "mqttAdmin"
       password: "6CT9w8GEpVBVvDsc8U"
 
 # --------------------------------------------
