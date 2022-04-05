@@ -30,10 +30,10 @@ if __name__ == "__main__":
 
 ## Info
 >>
-https://github.com/plapointe6/HAMqttDevice
-https://github.com/shaonianzhentan/node-red-contrib-ha-mqtt
-https://flows.nodered.org/node/node-red-contrib-ha-mqtt
-https://webworxshop.com/home-assistant-mqtt-discovery-sensors-in-node-red/
-https://roelofjanelsinga.com/articles/mqtt-discovery-with-an-arduino/
+https://github.com/plapointe6/HAMqttDevice<br>
+https://github.com/shaonianzhentan/node-red-contrib-ha-mqtt<br>
+https://flows.nodered.org/node/node-red-contrib-ha-mqtt<br>
+https://webworxshop.com/home-assistant-mqtt-discovery-sensors-in-node-red/<br>
+https://roelofjanelsinga.com/articles/mqtt-discovery-with-an-arduino/<br>
 
 <hr>
