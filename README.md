@@ -18,6 +18,9 @@ from lib.ha_discoveryitems import *
 log = logger.Log(__name__, LOG_LEVEL)
 
 if __name__ == "__main__":
+    #!/usr/bin/python3
+    # -*- coding":" utf-8 -*-
+
     """simple testcase to create and publish ha mqtt discovery items"""
     for device in DEVICES:
         print(device["device"])
